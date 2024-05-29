@@ -1,0 +1,1 @@
+Esta es una guia de los conceptos necesarios para saber y aprender JavaScript. Todos estos conceptos estan categorizados en diferentes carpetas para poder ir conociendo mas sobre el mundo de JavaScript.
