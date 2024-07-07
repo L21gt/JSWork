@@ -11,7 +11,6 @@ switch (opcion) {
         break;
 }
 
-
 //multiples case
 let dia = "Lunes";
 switch (dia) {
@@ -32,7 +31,6 @@ switch (dia) {
 }
 alert('He comprendido el concepto');
 
-
 //Sin break
 opcion = 1;
 switch (opcion) {
@@ -48,25 +46,22 @@ switch (opcion) {
 }
 
 
-
 //tipo diferente
 /**
  *En este ejemplo, se comparan diferentes 
  *tipos (number y string) y el caso coincidirá 
  *solo si los valores son del mismo tipo y tienen el mismo valor.
  */
- let valor = "10";
- switch (valor) {
-     case 10:
-         console.log("Número 10");
-         break;
-     case "10":
-         console.log("Cadena '10'");
-         break;
-     default:
-         console.log("Valor no reconocido");
-         break;
- }
- alert('He comprendido el concepto');
-
- 
+let valor = "10";
+switch (valor) {
+    case 10:
+        console.log("Número 10");
+        break;
+    case "10":
+        console.log("Cadena '10'");
+        break;
+    default:
+        console.log("Valor no reconocido");
+        break;
+}
+alert('He comprendido el concepto');
